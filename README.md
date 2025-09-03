@@ -68,7 +68,7 @@ La commande "python src/main.py train" doit tourner sur votre machine.<br/>
 ## Après 1 heure
 
 Vous devez avoir un modèle avec une accuracy > 90% en test<br/>
-**-1 point si non fait après 30 minutes**
+**-1 point si non fait après 1 heure**
 
 ## A Rendre
 
