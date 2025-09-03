@@ -26,6 +26,21 @@ Dans [ce lien](https://docs.google.com/spreadsheets/d/1HBs08WE5DLcHEfS6MqTivbyYl
 - video_name: le nom de la video
 - is_comic: est-ce une chronique humoristique
 
+## Installation
+
+### Sur Mac/Linux :
+```bash
+chmod +x scripts/setup.sh
+./scripts/setup.sh
+uv run python src/main.py train --input_filename=data/raw/train.csv --model_dump_filename=models/model.json
+```
+
+### Sur Windows:
+```bash
+scripts\setup.bat
+uv run python src/main.py train --input_filename=data/raw/train.csv --model_dump_filename=models/model.json
+```
+
 ## Text classification: prédire si la vidéo est une chronique comique
 
 - Créer une pipeline train, qui:
@@ -40,6 +55,20 @@ Dans [ce lien](https://docs.google.com/spreadsheets/d/1HBs08WE5DLcHEfS6MqTivbyYl
 - (optionel mais recommandé: créer une pipeline "evaluate" qui fait la cross-validation du modèle pour connaître ses performances)
 - Transformer les noms de video avec différentes opérations de NLTK (Stemming, remove stop words) ou de CountVectorizer (min / max document frequency)
 - Itérer avec les différentes features / différents modèles pour trouver le plus performant
+
+## !! Timeline !! (**Points en moins si non respectée**)
+
+
+### Après 30 minutes
+
+La commande "python src/main.py train" doit tourner sur votre machine.
+** -1 point si non fait après 30 minutes **
+** 0 au TD si non fait après 1 heure **
+
+## Après 1 heure
+
+Vous devez avoir un modèle avec une accuracy > 90% en test
+** -1 point si non fait après 30 minutes **
 
 ## A Rendre
 
