@@ -61,14 +61,14 @@ uv run python src/main.py train --input_filename=data/raw/train.csv --model_dump
 
 ### Après 30 minutes
 
-La commande "python src/main.py train" doit tourner sur votre machine.
-** -1 point si non fait après 30 minutes **
-** 0 au TD si non fait après 1 heure **
+La commande "python src/main.py train" doit tourner sur votre machine.<br/>
+**-1 point si non fait après 30 minutes**
+**0 au TD si non fait après 1 heure**
 
 ## Après 1 heure
 
-Vous devez avoir un modèle avec une accuracy > 90% en test
-** -1 point si non fait après 30 minutes **
+Vous devez avoir un modèle avec une accuracy > 90% en test<br/>
+**-1 point si non fait après 30 minutes**
 
 ## A Rendre
 
