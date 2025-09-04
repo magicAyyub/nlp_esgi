@@ -36,6 +36,11 @@ uv run python src/main.py train --input_filename=data/raw/train.csv --model_dump
 ```
 
 ### Sur Windows:
+
+#### WSL (recommandé) -> Utilisez l'installation Mac/Linux
+
+#### Windows terminal
+
 ```bash
 scripts\setup.bat
 uv run python src/main.py train --input_filename=data/raw/train.csv --model_dump_filename=models/model.json
