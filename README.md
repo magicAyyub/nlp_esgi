@@ -41,6 +41,10 @@ scripts\setup.bat
 uv run python src/main.py train --input_filename=data/raw/train.csv --model_dump_filename=models/model.json
 ```
 
+### PyCharm
+
+Si vous avez PyCharm, cliquez droit sur le dossier "src/" -> "Mark directory as" -> "Sources Root"
+
 ## Text classification: prédire si la vidéo est une chronique comique
 
 - Créer une pipeline train, qui:
