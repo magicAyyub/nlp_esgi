@@ -65,6 +65,16 @@ Si vous avez PyCharm, cliquez droit sur le dossier "src/" -> "Mark directory as"
 - Transformer les noms de video avec différentes opérations de NLTK (Stemming, remove stop words) ou de CountVectorizer (min / max document frequency)
 - Itérer avec les différentes features / différents modèles pour trouver le plus performant
 
+## TODO
+
+1. Faire tourner le code
+2. Comme en conditions réelles, splitter les données en 80% train (dans un autre train.csv) et 20% test (dans test.csv)
+3. Pour l'instant, les features X sont 0 pour toutes les videos. <br/>
+Utiliser sklearn CountVectorizer pour faire video_name -> encoded words
+4. Coder l'entry point predict pour loader votre modèle, et predire sur de nouvelles données
+5. Vérifier que toute votre pipeline fonctionne (train -> model.json -> predict -> predictions avec accuracy > 90%)
+6. Utiliser NLTK et scikit-learn pour améliorer les features et améliorer l'accuracy du modèle.
+
 ## !! Timeline !! (**Points en moins si non respectée**)
 
 
