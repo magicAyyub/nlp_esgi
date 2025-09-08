@@ -8,6 +8,7 @@ dependencies = [
     "click>=8.2.1",
     "nltk>=3.9.1",
     "pandas>=2.3.2",
+    "polars>=1.33.0",
     "scikit-learn>=1.7.1",
 ]
 
