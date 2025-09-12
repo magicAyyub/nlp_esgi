@@ -1,9 +1,15 @@
+from pydantic import BaseModel
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.pipeline import Pipeline
 from sklearn.model_selection import GridSearchCV
 
+class ComicName(BaseModel):
+    """Modèle pour l'extraction structurée d'un nom de comique."""
+    name: str
+
 def make_model():
+    # TODO: check the model
     # Use SVM which often works better for text classification
     return SVC(
         kernel='rbf',
