@@ -4,7 +4,6 @@ import joblib
 def make_features(df, vectorizer=None, fit_vectorizer=True):
     y = df["is_comic"]
 
-    # Simple CountVectorizer as requested
     if vectorizer is None:
         vectorizer = CountVectorizer(
             lowercase=True,

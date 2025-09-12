@@ -10,7 +10,7 @@ def make_model():
     )
 
 def make_linear_model():
-    # Alternative linear model as mentioned in requirements
+    # Alternative linear model 
     return LogisticRegression(
         random_state=42,
         max_iter=1000
